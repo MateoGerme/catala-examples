@@ -17,19 +17,16 @@ déclaration champ d'application Test:
     entrée nombre_personnes_à_charge contenu entier
     entrée ressources_ménage_arrondies contenu argent
     entrée réduction_loyer_solidarité contenu argent
-    résultat aide_finale_moins_crds_arrondie contenu argent
+    résultat aide_finale_formule contenu argent
 
 champ d'application Test:
-    assertion (date_courante >= |2010-01-01|)
-    assertion (loyer_principal >= 0€)
-    assertion (nombre_personnes_à_charge >= 0)
-    assertion (ressources_ménage_arrondies >= 0€)
-    assertion (réduction_loyer_solidarité >= 0€)
-
-    assertion (nombre_personnes_à_charge <= 10)
-    assertion (selon résidence sous forme
-        -- Métropole: vrai
-        -- n'importe quel: zone = Zone2)
+    assertion ((date_courante >= |2010-01-01|)
+    et (loyer_principal >= 0€)
+    et (nombre_personnes_à_charge >= 0)
+    et (ressources_ménage_arrondies >= 0€)
+    et (réduction_loyer_solidarité >= 0€)
+    et (nombre_personnes_à_charge <= 10)
+    et (si résidence = Métropole alors vrai sinon zone = Zone2))
 
     définition a.bénéficiaire_aide_adulte_ou_enfant_handicapés égal à bénéficiaire_aide_adulte_ou_enfant_handicapés
     définition a.colocation égal à colocation
@@ -46,5 +43,5 @@ champ d'application Test:
     définition a.ressources_ménage_arrondies égal à ressources_ménage_arrondies
     définition a.réduction_loyer_solidarité égal à réduction_loyer_solidarité
 
-    définition aide_finale_moins_crds_arrondie égal à a.aide_finale_moins_crds_arrondie de a.aide_finale_formule
+    définition aide_finale_formule égal à a.aide_finale_formule
 ```
