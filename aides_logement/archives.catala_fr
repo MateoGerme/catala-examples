@@ -1528,7 +1528,7 @@ champ d'application CalculAidePersonnaliséeLogementLocatif
     sinon si nombre_personnes_à_charge = 6 alors
       9 816 €
     sinon
-      9 816 € + 350 € * (décimal de (nombre_personnes_à_charge - 6))
+      9 816 € + 323 € * (décimal de (nombre_personnes_à_charge - 6))
 ```
 
 ## Articles en vigueur à partir du 1er janvier 2022 - Arrêté du 20 décembre 2021 relatif au calcul des aides personnelles au logement pour l'année 2022 NOR : LOGL2134477A
