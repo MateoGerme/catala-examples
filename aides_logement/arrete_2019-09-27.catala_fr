@@ -4333,6 +4333,7 @@ champ d'application CalculAidePersonnaliséeLogementLocatif
   sous condition
     (selon résidence sous forme
     -- Guadeloupe: vrai
+    -- Guyane: vrai
     -- Martinique: vrai
     -- LaRéunion: vrai
     -- Mayotte: vrai
@@ -4370,6 +4371,7 @@ champ d'application CalculAidePersonnaliséeLogementLocatif
   définition montant_forfaitaire_charges_d823_16 sous condition
     (selon résidence sous forme
     -- Guadeloupe: vrai
+    -- Guyane: vrai
     -- Martinique: vrai
     -- LaRéunion: vrai
     -- Mayotte: vrai
@@ -4385,6 +4387,7 @@ champ d'application CalculAllocationLogementAccessionPropriété
   définition montant_forfaitaire_charges sous condition
     (selon résidence sous forme
     -- Guadeloupe: vrai
+    -- Guyane: vrai
     -- Martinique: vrai
     -- LaRéunion: vrai
     -- Mayotte: vrai
@@ -4399,6 +4402,7 @@ champ d'application CalculAllocationLogementFoyer
   exception base définition montant_forfaitaire_charges sous condition
     (selon résidence sous forme
     -- Guadeloupe: vrai
+    -- Guyane: vrai
     -- Martinique: vrai
     -- LaRéunion: vrai
     -- Mayotte: vrai
@@ -4433,6 +4437,7 @@ champ d'application CalculAidePersonnaliséeLogementLocatif
   définition montant_forfaitaire_charges_d823_16 sous condition
     (selon résidence sous forme
     -- Guadeloupe: vrai
+    -- Guyane: vrai
     -- Martinique: vrai
     -- LaRéunion: vrai
     -- Mayotte: vrai
@@ -4452,6 +4457,7 @@ champ d'application CalculAllocationLogementAccessionPropriété
   définition montant_forfaitaire_charges sous condition
     (selon résidence sous forme
     -- Guadeloupe: vrai
+    -- Guyane: vrai
     -- Martinique: vrai
     -- LaRéunion: vrai
     -- Mayotte: vrai
@@ -4512,6 +4518,7 @@ champ d'application CalculAidePersonnaliséeLogementLocatif
   exception base définition taux_composition_familiale sous condition
     (selon résidence sous forme
     -- Guadeloupe: vrai
+    -- Guyane: vrai
     -- Martinique: vrai
     -- LaRéunion: vrai
     -- Mayotte: vrai
