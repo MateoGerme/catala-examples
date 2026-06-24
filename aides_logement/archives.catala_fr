@@ -1387,7 +1387,8 @@ champ d'application CalculAidePersonnaliséeLogementLocatif
     -- Mayotte: vrai
     -- SaintBarthélemy: vrai
     -- SaintMartin: vrai
-    -- n'importe quel: faux)
+    -- n'importe quel: faux) et
+    colocation
   conséquence égal à
     soit montant égal à
       (selon situation_familiale_calcul_apl sous forme
@@ -1917,7 +1918,8 @@ champ d'application CalculAidePersonnaliséeLogementLocatif
     -- Mayotte: vrai
     -- SaintBarthélemy: vrai
     -- SaintMartin: vrai
-    -- n'importe quel: faux)
+    -- n'importe quel: faux) et
+    colocation
   conséquence égal à
     soit montant égal à
       (selon situation_familiale_calcul_apl sous forme
@@ -3066,7 +3068,8 @@ champ d'application CalculAidePersonnaliséeLogementLocatif
     -- Mayotte: vrai
     -- SaintBarthélemy: vrai
     -- SaintMartin: vrai
-    -- n'importe quel: faux)
+    -- n'importe quel: faux) et
+    colocation
   conséquence égal à
     soit montant égal à
       (selon situation_familiale_calcul_apl sous forme
@@ -4171,7 +4174,8 @@ champ d'application CalculAidePersonnaliséeLogementLocatif
     -- Mayotte: vrai
     -- SaintBarthélemy: vrai
     -- SaintMartin: vrai
-    -- n'importe quel: faux)
+    -- n'importe quel: faux) et
+    colocation
   conséquence égal à
     soit montant égal à
       (selon situation_familiale_calcul_apl sous forme
@@ -4744,7 +4748,8 @@ champ d'application CalculAidePersonnaliséeLogementLocatif
     -- Mayotte: vrai
     -- SaintBarthélemy: vrai
     -- SaintMartin: vrai
-    -- n'importe quel: faux)
+    -- n'importe quel: faux) et
+    colocation
   conséquence égal à
     soit montant égal à
       (selon situation_familiale_calcul_apl sous forme
