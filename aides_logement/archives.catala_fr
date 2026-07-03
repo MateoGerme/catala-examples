@@ -3479,6 +3479,7 @@ sous condition date_courante >= |2022-07-01| et date_courante < |2023-01-01|:
     -- SaintMartin : vrai
     -- n'importe quel : faux
   )
+  et copropriété
   conséquence égal à
     soit montant égal à
       (
@@ -4179,6 +4180,7 @@ sous condition date_courante >= |2022-01-01| et date_courante < |2022-07-01|:
     -- SaintMartin : vrai
     -- n'importe quel : faux
   )
+  et copropriété
   conséquence égal à
     soit montant égal à
       (
@@ -5444,6 +5446,7 @@ sous condition date_courante >= |2021-10-01| et date_courante < |2022-01-01|:
     -- SaintMartin : vrai
     -- n'importe quel : faux
   )
+  et copropriété
   conséquence égal à
     soit montant égal à
       (
@@ -6676,6 +6679,7 @@ sous condition date_courante >= |2020-10-01| et date_courante < |2021-10-01|:
     -- SaintMartin : vrai
     -- n'importe quel : faux
   )
+  et copropriété
   conséquence égal à
     soit montant égal à
       (
@@ -7296,6 +7300,7 @@ sous condition date_courante >= |2020-01-01| et date_courante < |2020-10-01|:
     -- SaintMartin : vrai
     -- n'importe quel : faux
   )
+  et copropriété
   conséquence égal à
     soit montant égal à
       (
