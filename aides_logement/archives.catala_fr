@@ -3468,18 +3468,19 @@ champ d'application CalculAllocationLogementAccessionPropriété
 sous condition date_courante >= |2022-07-01| et date_courante < |2023-01-01|:
   exception outre_mer
   définition montant_forfaitaire_charges
-  sous condition (
-    selon résidence sous forme
-    -- Guadeloupe : vrai
-    -- Guyane : vrai
-    -- Martinique : vrai
-    -- LaRéunion : vrai
-    -- Mayotte : vrai
-    -- SaintBarthélemy : vrai
-    -- SaintMartin : vrai
-    -- n'importe quel : faux
-  )
-  et copropriété
+  sous condition
+    (
+      selon résidence sous forme
+      -- Guadeloupe : vrai
+      -- Guyane : vrai
+      -- Martinique : vrai
+      -- LaRéunion : vrai
+      -- Mayotte : vrai
+      -- SaintBarthélemy : vrai
+      -- SaintMartin : vrai
+      -- n'importe quel : faux
+    )
+    et copropriété
   conséquence égal à
     soit montant égal à
       (
@@ -4169,18 +4170,19 @@ champ d'application CalculAllocationLogementAccessionPropriété
 sous condition date_courante >= |2022-01-01| et date_courante < |2022-07-01|:
   exception outre_mer
   définition montant_forfaitaire_charges
-  sous condition (
-    selon résidence sous forme
-    -- Guadeloupe : vrai
-    -- Guyane : vrai
-    -- Martinique : vrai
-    -- LaRéunion : vrai
-    -- Mayotte : vrai
-    -- SaintBarthélemy : vrai
-    -- SaintMartin : vrai
-    -- n'importe quel : faux
-  )
-  et copropriété
+  sous condition
+    (
+      selon résidence sous forme
+      -- Guadeloupe : vrai
+      -- Guyane : vrai
+      -- Martinique : vrai
+      -- LaRéunion : vrai
+      -- Mayotte : vrai
+      -- SaintBarthélemy : vrai
+      -- SaintMartin : vrai
+      -- n'importe quel : faux
+    )
+    et copropriété
   conséquence égal à
     soit montant égal à
       (
@@ -5435,18 +5437,19 @@ champ d'application CalculAllocationLogementAccessionPropriété
 sous condition date_courante >= |2021-10-01| et date_courante < |2022-01-01|:
   exception outre_mer
   définition montant_forfaitaire_charges
-  sous condition (
-    selon résidence sous forme
-    -- Guadeloupe : vrai
-    -- Guyane : vrai
-    -- Martinique : vrai
-    -- LaRéunion : vrai
-    -- Mayotte : vrai
-    -- SaintBarthélemy : vrai
-    -- SaintMartin : vrai
-    -- n'importe quel : faux
-  )
-  et copropriété
+  sous condition
+    (
+      selon résidence sous forme
+      -- Guadeloupe : vrai
+      -- Guyane : vrai
+      -- Martinique : vrai
+      -- LaRéunion : vrai
+      -- Mayotte : vrai
+      -- SaintBarthélemy : vrai
+      -- SaintMartin : vrai
+      -- n'importe quel : faux
+    )
+    et copropriété
   conséquence égal à
     soit montant égal à
       (
@@ -6668,18 +6671,19 @@ champ d'application CalculAllocationLogementAccessionPropriété
 sous condition date_courante >= |2020-10-01| et date_courante < |2021-10-01|:
   exception outre_mer
   définition montant_forfaitaire_charges
-  sous condition (
-    selon résidence sous forme
-    -- Guadeloupe : vrai
-    -- Guyane : vrai
-    -- Martinique : vrai
-    -- LaRéunion : vrai
-    -- Mayotte : vrai
-    -- SaintBarthélemy : vrai
-    -- SaintMartin : vrai
-    -- n'importe quel : faux
-  )
-  et copropriété
+  sous condition
+    (
+      selon résidence sous forme
+      -- Guadeloupe : vrai
+      -- Guyane : vrai
+      -- Martinique : vrai
+      -- LaRéunion : vrai
+      -- Mayotte : vrai
+      -- SaintBarthélemy : vrai
+      -- SaintMartin : vrai
+      -- n'importe quel : faux
+    )
+    et copropriété
   conséquence égal à
     soit montant égal à
       (
@@ -7289,18 +7293,19 @@ champ d'application CalculAllocationLogementAccessionPropriété
 sous condition date_courante >= |2020-01-01| et date_courante < |2020-10-01|:
   exception outre_mer
   définition montant_forfaitaire_charges
-  sous condition (
-    selon résidence sous forme
-    -- Guadeloupe : vrai
-    -- Guyane : vrai
-    -- Martinique : vrai
-    -- LaRéunion : vrai
-    -- Mayotte : vrai
-    -- SaintBarthélemy : vrai
-    -- SaintMartin : vrai
-    -- n'importe quel : faux
-  )
-  et copropriété
+  sous condition
+    (
+      selon résidence sous forme
+      -- Guadeloupe : vrai
+      -- Guyane : vrai
+      -- Martinique : vrai
+      -- LaRéunion : vrai
+      -- Mayotte : vrai
+      -- SaintBarthélemy : vrai
+      -- SaintMartin : vrai
+      -- n'importe quel : faux
+    )
+    et copropriété
   conséquence égal à
     soit montant égal à
       (
